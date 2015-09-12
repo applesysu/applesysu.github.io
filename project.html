@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>主页 | 中山大学苹果俱乐部</title>
+  <title>关于 | 中山大学苹果俱乐部</title>
   <!-- <link href="//cdn.bootcss.com/normalize/3.0.3/normalize.min.css" rel="stylesheet"> -->
   <link href="//cdn.bootcss.com/flexslider/2.5.0/flexslider.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/index.css">
@@ -23,22 +23,29 @@
       <li><a href="about.html">关于</a></li>
     </ul>
   </div>
-  <div id="slider">
-    <div class="flexslider">
-      <ul class="slides">
-        <li>
-          <img src="img/1.jpg" />
-        </li>
-        <li>
-          <img src="img/1.jpg" />
-        </li>
-        <li>
-          <img src="img/1.jpg" />
-        </li>
-        <li>
-          <img src="img/1.jpg" />
-        </li>
-      </ul>
+  <div id="contentContainer">
+    <div id="projectContent">
+      <h1><a href="#" onfocus="this.blur()"><img src="img/projectIntroduce.jpg" alt="苹果俱乐部项目介绍导航"></a></h1>
+      <div id="projectImage">
+        <img src="img/3DMail1.jpg" class="imageMargin">
+        <img src="img/3DMail2.jpg" class="imageMargin">
+        <img src="img/3DMail3.jpg" class="imageMargin">
+        <img src="img/3DMail4.jpg">
+      </div>
+      <div class="clear"></div>
+      <h2>苹果三维邮件开发项目</h2>
+      <p>邮件系统提供了三种邮件分组功能，系统根据用户所收到的邮件的Email地址的后缀（符号@之后的包含的服务商名和域名）对邮件进行分组，这个分组功能是由系统自动完成的。另外用户还可以编辑自定制的组别和根据邮件内容重要程度进行优先级对邮件进行分类。</p>
+      <h3>A.创建和删除用户自定制组别</h3>
+      <p>点击+按钮，在输入框填写该组别的主题，确认后即可看到自己刚才新创建的组别，如图1，点击删除按钮，可将已创建的组别删除，属于该组别的邮 件不会被删除。
+      </p>
+      <h3>B.分类查看邮件</h3>
+      <p>如果邮件边缘上的颜色标签与界面右上角组别的颜色相同，代表该邮件属于这一个分类方式下面的某个子类别。通过类别切换按钮 ，可以选择以不 同的分类方式查看邮件。
+      </p>
+      <h3>C.基于时间或联系人地址排列邮件</h3>
+      <p>系统默认的方式是根据邮件接收的先后顺序，对邮件进行排列的，在横轴下面的文字标签标识出时间间隔。通过切换按钮，可以切换到按照联系人 email地址对邮件进行排序，横轴下面的文字标签标识出不同的联系人地址。
+      </p>
+      <h3>D.邮件多级搜索功能</h3>
+      <p>系统提供三级的条件过滤，对邮件进行筛选检索，筛选条件分别是邮件的重要内容程度、邮件地址后缀还有用户自定制组别。用户可以组合以上三个筛选条件的任意或多个组合，对邮件进行筛选。</p>
     </div>
   </div>
   <div id="footer">

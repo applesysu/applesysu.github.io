@@ -92,9 +92,13 @@ h1 {
     font-size: 0.5em;
 }
 
+#teachersContent .research {
+    font-weight: bold;
+}
+
 #footer {
     width: 1000px;
-    margin: 0 auto;
+    margin: 50px auto 0;
 }
 
 #copyright {
