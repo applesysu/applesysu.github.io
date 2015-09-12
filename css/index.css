@@ -57,8 +57,9 @@ h1 {
 }
 
 #header>ul>li img {
-    width: 1.2em;
-    height: 1.2em;
+    width: 41px;
+    height: 41px;
+    float: left;
 }
 
 #slider {
