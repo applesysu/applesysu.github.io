@@ -8,6 +8,7 @@ body {
     font-family: "微软雅黑", Verdana, Geneva, sans-serif;
     position: relative;
     /*overflow: hidden;*/
+    background-color: #eeeeee;
 }
 
 a {
@@ -91,6 +92,10 @@ h1 {
     margin: auto;
     text-align: left;
     font-size: 0.5em;
+}
+
+#apartmentContent {
+    background-color: #efefef;
 }
 
 #teachersContent .research {

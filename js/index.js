@@ -29,5 +29,6 @@ $(function() {
   $('.flexslider').flexslider({
     animation: "slide"
   });
-  
+  $('.fullPageImage').width($(window).width());
+  $('.fullPageImage').height($(window).height());
 });

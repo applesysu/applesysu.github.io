@@ -1,95 +1,55 @@
 <!DOCTYPE html>
 <html lang="zh-cmn-Hans">
-
 <head>
-  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
   <title>首页 | 中山大学苹果俱乐部</title>
-  <!-- <link href="//cdn.bootcss.com/normalize/3.0.3/normalize.min.css" rel="stylesheet"> -->
-  <link href="//cdn.bootcss.com/flexslider/2.5.0/flexslider.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/index.css">
+  <link href="favicon.ico" rel="shortcut icon">
+  <link href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/recruit.css">
 </head>
-
+  
 <body>
   <div id="header">
-    <ul>
-      <li>
-        <a href="/"><img src="img/logo.png" alt="appleclub" title="home "></a>
-      </li>
-      <li><a href="/">首页</a></li>
-      <li><a href="chronicle.html">大事记</a></li>
-      <li><a href="project.html">项目成果</a></li>
-      <li><a href="facility.html">资源设备</a></li>
-      <li><a href="apartment.html">部门介绍</a></li>
-      <li><a href="about.html">关于</a></li>
-    </ul>
+    <nav class="navbar navbar-inverse text-center">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a href="#">
+            <img alt="Logo" src="img/logo.png">
+          </a>
+        </div>
+        <p class="navbar-text">SYSU APPLE CLUB</p>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="/">招新首页</a></li>
+            <li><a href="recruit_apartment.html">部门简介</a></li>
+            <li><a href="recruit_about.html">关于</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
   </div>
-  <div id="slider">
-    <div class="flexslider">
-      <ul class="slides">
-        <li>
-          <img src="img/1.jpg" />
-        </li>
-        <li>
-          <img src="img/1.jpg" />
-        </li>
-        <li>
-          <img src="img/1.jpg" />
-        </li>
-        <li>
-          <img src="img/1.jpg" />
-        </li>
-      </ul>
+  <div id="content">
+    <div id="index">
+      <img class="fullPageImage" src="img/index.jpg" alt="苹果俱乐部2015年招新"/>
+      <div id="application">
+        <h2>申请方式</h1>
+        <h3>1. 填写电子版报名表，并发送至appleatsysu@gmail.com <a href="file/apple_club_application.doc"><button type="button" class="btn btn-default btn-xs">下载</button></a></h3>
+        <h3>2. 填写纸质版报名表，并于百团大战当日直接提交</h3>
+        <p>注：无论何种申请方式，都需在9月20号参加面试</p>
+      </div>
+      <!-- <div id="quote">
+        <img src="img/quote.png">
+      </div> -->
     </div>
   </div>
   <div id="footer">
-    <div id="links">
-      <h1><a href="#" onfocus="this.blur()"><img src="img/linksNav.jpg" alt="友情链接"></a></h1>
-      <table>
-        <tbody>
-          <tr>
-            <td>·中山大学数字媒体中心</td>
-            <td>·Apple苹果公司</td>
-            <td>·iPhone应用开发入门</td>
-            <td>·苹果相关英文论坛</td>
-          </tr>
-          <tr class="textIndent">
-            <td><a href="http://www.hci.sysu.edu.cn" target="_blank">www.hci.sysu.edu.cn</a></td>
-            <td><a href="http://www.apple.com" target="_blank">www.apple.com</a></td>
-            <td><a href="http://publish.itpub.net" target="_blank">publish.itpub.net</a></td>
-            <td><a href="http://www.spymac.com" target="_blank">www.spymac.com</a></td>
-          </tr>
-          <tr>
-            <td>·mac软件的技巧</td>
-            <td>·苹果开发中文站</td>
-            <td>·苹果电脑技术论坛</td>
-            <td class="textIndent"><a href="http://www.macosx.com" target="_blank">www.macosx.com</a></td>
-          </tr>
-          <tr class="textIndent">
-            <td><a href="http://www.macosxhints.com" target="_blank">www.macosxhints.com</a></td>
-            <td><a href="http://www.cocoachina.com" target="_blank">www.cocoachina.com</a></td>
-            <td><a href="http://www.maiyadi.com" target="_blank">www.maiyadi.com</a></td>
-            <td><a href="http://forums.macosxhints.com" target="_blank">forums.macosxhints.com</a></td>
-          </tr>
-          <tr>
-            <td>·硬件技术和兼容性查询</td>
-            <td>·苹果开发人员联盟</td>
-            <td>·苹果游戏数据库</td>
-            <td class="textIndent"><a href="http://forums.macrumors.com" target="_blank">forums.macrumors.com</a></td>
-          </tr>
-          <tr class="textIndent">
-            <td><a href="http://www.macosxhints.com" target="_blank">www.macosxhints.com</a></td>
-            <td><a href="http://www.apple.com.cn" target="_blank">www.apple.com.cn</a></td>
-            <td><a href="http://www.gamedb.com" target="_blank">www.gamedb.com</a></td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
+    <div class="container">
+      <p id="copyright">中山大学苹果俱乐部 SYSUAppleClub &copy;2009-2015</p>
     </div>
-    <div id="copyright">&copy;中山大学苹果俱乐部版权所有 | @2009-2015</div>
   </div>
-  <script src="//cdn.bootcss.com/jquery/3.0.0-alpha1/jquery.min.js"></script>
-  <script src="//cdn.bootcss.com/flexslider/2.5.0/jquery.flexslider-min.js"></script>
-  <script src="js/index.js"></script>
+  <script src="http://cdn.bootcss.com/jquery/3.0.0-alpha1/jquery.js"></script>
+  <script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="js/recruit.js"></script>
 </body>
 
 </html>
